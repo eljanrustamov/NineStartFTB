@@ -1,4 +1,4 @@
-﻿@model SliderVM
+﻿@model SliderUpdateVM
                 <main>
                     <div class="container-fluid px-4">
                         <h1 class="mt-4">Admin panel</h1>
@@ -7,7 +7,7 @@
                         </ol>
 
                         <div class="row d-flex justify-content-between">
-                             <a asp-area="admin" asp-controller="home" asp-action="index" class="btn btn-secondary">Go to back</a>
+                             <a asp-area="admin" asp-controller="sliders" asp-action="index" class="btn btn-secondary">Go to back</a>
                                       @*<a asp-area="admin" asp-controller="sliders" asp-action="create" class="btn btn-success">Create</a>*@
                         </div>
 
@@ -42,6 +42,10 @@
                                 <label asp-for="IsDeactivated" class="form-label"> </label>
                                 <input asp-for="IsDeactivated" >
                                 <span asp-validation-for="IsDeactivated" class="text-danger"></span>
+                              </div>
+
+                              <div class="mb-3">
+                                <input asp-for="ImageName" type="hidden" class="form-control">
                               </div>
         
                                <div class="mb-3">

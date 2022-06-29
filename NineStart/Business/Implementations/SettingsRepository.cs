@@ -22,24 +22,28 @@ namespace Business.Implementations
         {
             return await _settingsRepository.GetSettings();
         }
+        public Task<Settings> Get(int? id)
+        {
+            throw new NotImplementedException();
+        }
 
-        public Task AddAsync(Settings entity)
+        public Task<List<Settings>> GetAll()
         {
             throw new NotImplementedException();
         }
-        public Task DeleteAsync(Settings entity)
+
+        public Task Create(Settings entity)
         {
             throw new NotImplementedException();
         }
-        public Task<List<Settings>> GetAllAsync(Expression<Func<Settings, bool>> expression = null)
+
+        public Task Delete(int? id)
         {
             throw new NotImplementedException();
         }
-        public Task<Settings> GetAsync(Expression<Func<Settings, bool>> expression = null)
-        {
-            throw new NotImplementedException();
-        }
-        public Task UpdateAsync(Settings entity)
+
+       
+        public Task Update(Settings entity)
         {
             throw new NotImplementedException();
         }

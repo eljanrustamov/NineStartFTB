@@ -35,9 +35,9 @@
                                   <td>@Model.RedirectToUrlText</td>
                                   <td>@Model.ImageName</td>
                                   <td>
-                                      <a asp-area="admin" asp-controller="sliders" asp-action="details" class="btn btn-primary">Details</a>
-                                      <a asp-area="admin" asp-controller="sliders" asp-action="update" class="btn btn-warning">Update</a>
-                                      <a asp-area="admin" asp-controller="sliders" asp-action="delete" class="btn btn-danger">Delete</a>
+                                      <a asp-area="admin" asp-controller="sliders" asp-action="details" asp-route-id="@Model.Id" class="btn btn-primary">Details</a>
+                                      <a asp-area="admin" asp-controller="sliders" asp-action="update" asp-route-id="@Model.Id" class="btn btn-warning">Update</a>
+                                      <a asp-area="admin" asp-controller="sliders" asp-action="delete" asp-route-id="@Model.Id" class="btn btn-danger">Delete</a>
                                   </td>
                                 </tr>
                               </tbody>

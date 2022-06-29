@@ -178,3 +178,4 @@ C:\Users\Administrator\Desktop\exam\NineStart\NineStart\bin\Debug\netcoreapp3.1\
 C:\Users\Administrator\Desktop\exam\NineStart\NineStart\bin\Debug\netcoreapp3.1\Business.pdb
 C:\Users\Administrator\Desktop\exam\NineStart\NineStart\obj\Debug\netcoreapp3.1\Razor\Areas\Admin\Views\Sliders\Index.cshtml.g.cs
 C:\Users\Administrator\Desktop\exam\NineStart\NineStart\obj\Debug\netcoreapp3.1\Razor\Areas\Admin\Views\Sliders\Create.cshtml.g.cs
+C:\Users\Administrator\Desktop\exam\NineStart\NineStart\obj\Debug\netcoreapp3.1\Razor\Areas\Admin\Views\Sliders\Update.cshtml.g.cs

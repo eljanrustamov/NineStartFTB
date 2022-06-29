@@ -7,7 +7,7 @@ using System.Text;
 
 namespace Business.Services
 {
-    public interface ISettingsService : ISettingsDal
+    public interface ISettingsService : IBaseService<Settings>
     {
 
     }
