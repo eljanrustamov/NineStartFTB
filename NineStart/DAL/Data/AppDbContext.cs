@@ -15,5 +15,6 @@ namespace DAL.Data
         }
         
         public DbSet<Slider> Sliders { get; set; }
+        public DbSet<Settings> Settings { get; set; }
     }
 }

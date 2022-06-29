@@ -39,6 +39,7 @@ namespace NineStart
 
             services.Configure<IdentityOptions>(options =>
             {
+                options.User.RequireUniqueEmail = true;
                 options.Lockout.MaxFailedAccessAttempts = 6;
                 options.Password.RequiredLength = 8;
             });

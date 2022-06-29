@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Administrator\\Desktop\\NineStart\\DAL\\DAL.csproj": {}
+    "C:\\Users\\Administrator\\Desktop\\exam\\NineStart\\DAL\\DAL.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Administrator\\Desktop\\NineStart\\Core\\Core.csproj": {
+    "C:\\Users\\Administrator\\Desktop\\exam\\NineStart\\Core\\Core.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Administrator\\Desktop\\NineStart\\Core\\Core.csproj",
+        "projectUniqueName": "C:\\Users\\Administrator\\Desktop\\exam\\NineStart\\Core\\Core.csproj",
         "projectName": "Core",
-        "projectPath": "C:\\Users\\Administrator\\Desktop\\NineStart\\Core\\Core.csproj",
+        "projectPath": "C:\\Users\\Administrator\\Desktop\\exam\\NineStart\\Core\\Core.csproj",
         "packagesPath": "C:\\Users\\Administrator\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Administrator\\Desktop\\NineStart\\Core\\obj\\",
+        "outputPath": "C:\\Users\\Administrator\\Desktop\\exam\\NineStart\\Core\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -53,6 +53,10 @@
               "suppressParent": "All",
               "target": "Package",
               "version": "[3.1.26, )"
+            },
+            "X.PagedList.Mvc.Core": {
+              "target": "Package",
+              "version": "[7.6.0, )"
             }
           },
           "imports": [
@@ -74,14 +78,14 @@
         }
       }
     },
-    "C:\\Users\\Administrator\\Desktop\\NineStart\\DAL\\DAL.csproj": {
+    "C:\\Users\\Administrator\\Desktop\\exam\\NineStart\\DAL\\DAL.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Administrator\\Desktop\\NineStart\\DAL\\DAL.csproj",
+        "projectUniqueName": "C:\\Users\\Administrator\\Desktop\\exam\\NineStart\\DAL\\DAL.csproj",
         "projectName": "DAL",
-        "projectPath": "C:\\Users\\Administrator\\Desktop\\NineStart\\DAL\\DAL.csproj",
+        "projectPath": "C:\\Users\\Administrator\\Desktop\\exam\\NineStart\\DAL\\DAL.csproj",
         "packagesPath": "C:\\Users\\Administrator\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Administrator\\Desktop\\NineStart\\DAL\\obj\\",
+        "outputPath": "C:\\Users\\Administrator\\Desktop\\exam\\NineStart\\DAL\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -102,8 +106,8 @@
           "netcoreapp3.1": {
             "targetAlias": "netcoreapp3.1",
             "projectReferences": {
-              "C:\\Users\\Administrator\\Desktop\\NineStart\\Core\\Core.csproj": {
-                "projectPath": "C:\\Users\\Administrator\\Desktop\\NineStart\\Core\\Core.csproj"
+              "C:\\Users\\Administrator\\Desktop\\exam\\NineStart\\Core\\Core.csproj": {
+                "projectPath": "C:\\Users\\Administrator\\Desktop\\exam\\NineStart\\Core\\Core.csproj"
               }
             }
           }
@@ -127,6 +131,10 @@
               "suppressParent": "All",
               "target": "Package",
               "version": "[3.1.26, )"
+            },
+            "X.PagedList.Mvc.Core": {
+              "target": "Package",
+              "version": "[7.6.0, )"
             }
           },
           "imports": [
