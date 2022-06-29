@@ -1,0 +1,64 @@
+﻿@using DAL.Models
+@model SliderVM
+                <main>
+                    <div class="container-fluid px-4">
+                        <h1 class="mt-4">Admin panel</h1>
+                        <ol class="breadcrumb mb-4">
+                            <li class="breadcrumb-item active">Slider</li>
+                        </ol>
+
+                        <div class="row d-flex justify-content-between">
+                             <a asp-area="admin" asp-controller="home" asp-action="index" class="btn btn-secondary">Go to back</a>
+                                      @*<a asp-area="admin" asp-controller="sliders" asp-action="create" class="btn btn-success">Create</a>*@
+                        </div>
+
+                        <div class="row">
+                            <form method="post" enctype="multipart/form-data">
+                              <div class="mb-3">
+                                <label asp-for="Title" class="form-label"> </label>
+                                <input asp-for="Title" class="form-control">
+                                <span asp-validation-for="Title"></span>
+                              </div>
+
+                              <div class="mb-3">
+                                <label asp-for="Description" class="form-label"> </label>
+                                <input asp-for="Description" class="form-control">
+                                <span asp-validation-for="Description"></span>
+                              </div>
+
+                              <div class="mb-3">
+                                <label asp-for="RedirectToUrl" class="form-label"> </label>
+                                <input asp-for="RedirectToUrl" class="form-control">
+                                <span asp-validation-for="RedirectToUrl"></span>
+                              </div>
+
+                              <div class="mb-3">
+                                <label asp-for="RedirectToUrlText" class="form-label"> </label>
+                                <input asp-for="RedirectToUrlText" class="form-control">
+                                <span asp-validation-for="RedirectToUrlText"></span>
+                              </div>
+
+                               <div class="mb-3">
+                                <label asp-for="IsDeactivated" class="form-label"> </label>
+                                <input asp-for="IsDeactivated" >
+                                <span asp-validation-for="IsDeactivated"></span>
+                              </div>
+        
+                               <div class="mb-3">
+                                <label asp-for="ImageFile" class="form-label"> </label>
+                                <input asp-for="ImageFile" class="form-control">
+                                <span asp-validation-for="ImageFile"></span>
+                              </div>
+
+                              <button type="submit" class="btn btn-primary">Submit</button>
+                            </form>
+                        </div>
+                    </div>
+                </main>
+
+
+
+
+
+
+

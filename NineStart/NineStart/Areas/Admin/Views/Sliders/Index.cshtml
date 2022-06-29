@@ -1,0 +1,51 @@
+﻿@using DAL.Models
+@model Slider
+
+                <main>
+                    <div class="container-fluid px-4">
+                        <h1 class="mt-4">Admin panel</h1>
+                        <ol class="breadcrumb mb-4">
+                            <li class="breadcrumb-item active">Slider</li>
+                        </ol>
+
+                        <div class="row d-flex justify-content-between">
+                                      <a asp-area="admin" asp-controller="home" asp-action="index" class="btn btn-secondary">Go to back</a>
+                                      <a asp-area="admin" asp-controller="sliders" asp-action="create" class="btn btn-success">Create</a>
+                        </div>
+                        <div class="row">
+                            <table class="table">
+                              <thead>
+                                <tr>
+                                  <th scope="col">#</th>
+                                  <th scope="col">Title</th>
+                                  <th scope="col">Description</th>
+                                  <th scope="col">Redirect To Url</th>
+                                  <th scope="col">Redirect To Url Text</th>
+                                  <th scope="col">Image Name</th>
+                                  <th scope="col">Settings</th>
+                                </tr>
+                              </thead>
+
+                              <tbody>
+                                <tr>
+                                  <th scope="row">1</th>
+                                  <td>@Model.Title</td>
+                                  <td>@Model.Description</td>
+                                  <td>@Model.RedirectToUrl</td>
+                                  <td>@Model.RedirectToUrlText</td>
+                                  <td>@Model.ImageName</td>
+                                  <td>
+                                      <a asp-area="admin" asp-controller="sliders" asp-action="details" class="btn btn-primary">Details</a>
+                                      <a asp-area="admin" asp-controller="sliders" asp-action="update" class="btn btn-warning">Update</a>
+                                      <a asp-area="admin" asp-controller="sliders" asp-action="delete" class="btn btn-danger">Delete</a>
+                                  </td>
+                                </tr>
+                              </tbody>
+                            </table>
+                        </div>
+                    </div>
+                </main>
+
+
+
+

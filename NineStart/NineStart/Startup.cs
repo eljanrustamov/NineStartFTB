@@ -1,4 +1,8 @@
+using Business.Implementations;
+using Business.Services;
+using DAL.Abstracts;
 using DAL.Data;
+using DAL.Implementations;
 using DAL.Models;
 using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Hosting;
@@ -30,6 +34,16 @@ namespace NineStart
 
             services.AddAuthentication();
             services.AddAuthorization();
+
+            services.AddScoped<ISliderDal, EFSliderRepository>();
+            services.AddScoped<ISliderService, SliderRepository>();
+
+
+            services.AddScoped<ISettingsDal, EFSetttingsRepository>();
+            services.AddScoped<ISettingsService, SettingsRepository>();
+
+
+
 
             services.AddDbContext<AppDbContext>(options => {
                 options.UseSqlServer(_config.GetConnectionString("default"));
