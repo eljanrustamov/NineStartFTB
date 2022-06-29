@@ -1,0 +1,16 @@
+C:\Users\Administrator\Desktop\NineStart\DAL\bin\Debug\netcoreapp3.1\DAL.deps.json
+C:\Users\Administrator\Desktop\NineStart\DAL\bin\Debug\netcoreapp3.1\DAL.dll
+C:\Users\Administrator\Desktop\NineStart\DAL\bin\Debug\netcoreapp3.1\DAL.pdb
+C:\Users\Administrator\Desktop\NineStart\DAL\bin\Debug\netcoreapp3.1\Core.dll
+C:\Users\Administrator\Desktop\NineStart\DAL\bin\Debug\netcoreapp3.1\Core.pdb
+C:\Users\Administrator\Desktop\NineStart\DAL\obj\Debug\netcoreapp3.1\DAL.csproj.AssemblyReference.cache
+C:\Users\Administrator\Desktop\NineStart\DAL\obj\Debug\netcoreapp3.1\DAL.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Administrator\Desktop\NineStart\DAL\obj\Debug\netcoreapp3.1\DAL.AssemblyInfoInputs.cache
+C:\Users\Administrator\Desktop\NineStart\DAL\obj\Debug\netcoreapp3.1\DAL.AssemblyInfo.cs
+C:\Users\Administrator\Desktop\NineStart\DAL\obj\Debug\netcoreapp3.1\DAL.csproj.CoreCompileInputs.cache
+C:\Users\Administrator\Desktop\NineStart\DAL\obj\Debug\netcoreapp3.1\DAL.csproj.CopyComplete
+C:\Users\Administrator\Desktop\NineStart\DAL\obj\Debug\netcoreapp3.1\DAL.dll
+C:\Users\Administrator\Desktop\NineStart\DAL\obj\Debug\netcoreapp3.1\DAL.pdb
+C:\Users\Administrator\Desktop\NineStart\DAL\bin\Debug\netcoreapp3.1\DAL.runtimeconfig.json
+C:\Users\Administrator\Desktop\NineStart\DAL\bin\Debug\netcoreapp3.1\DAL.runtimeconfig.dev.json
+C:\Users\Administrator\Desktop\NineStart\DAL\obj\Debug\netcoreapp3.1\DAL.genruntimeconfig.cache
