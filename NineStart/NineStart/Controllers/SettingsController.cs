@@ -13,19 +13,19 @@ namespace NineStart.Controllers
             _settingsService = settingsService;
         }
 
-        public async Task<IActionResult> IndexAsync()
-        {
-            try
-            {
-                var datas = await _settingsService.GetAllAsync();
-            }
-            catch (System.Exception)
-            {
+        //public async Task<IActionResult> IndexAsync()
+        //{
+        //    try
+        //    {
+        //        var datas = await _settingsService.GetAllAsync();
+        //    }
+        //    catch (System.Exception)
+        //    {
 
-                throw;
-            }
+        //        throw;
+        //    }
 
-            return View(datas);
-        }
+        //    return View(datas);
+        //}
     }
 }
